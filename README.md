@@ -21,35 +21,11 @@ detected shapes with multiple overlays.
 - Rule-based Shape Classification
 - Interactive Visualization & Export
 
-
 ## How to Run
 1. Ensure MATLAB path includes the project folder
 2. Run:
    ShapeRecognitionApp
 3. Or upload and run directly on MATLAB Online
-
-## How to Use
-1. Click **Load Image** to import an image
-2. Choose preprocessing method:
-   - Adaptive (default)
-   - Global Threshold
-   - Edge Detection
-3. Adjust sliders:
-   - Threshold
-   - Min / Max Area
-   - Circularity / Solidity
-4. Click **Detect Shapes**
-5. Toggle visualization options:
-   - Contours
-   - Bounding Boxes
-   - Labels
-   - Fill & Transparency
-
-## Troubleshooting
-- Too much noise → Increase Min Area
-- Shapes merged → Use Edge Detection or adjust Threshold
-- Wrong classification → Tune Circularity / Solidity
-- Dark background → Enable Invert Image
 
 ## Requirements
 - MATLAB R2021a or later
